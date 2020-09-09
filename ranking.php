@@ -18,7 +18,7 @@
 	
 	$usuario=$_SESSION['jugador'];
 	$puntos=$_SESSION['puntos'];
-	$conexion=new mysqli("localhost","root","","tecnologia");
+	$conexion=new mysqli("bssajwb6gjxmu5ttarjq-mysql.services.clever-cloud.com","udgupmjtgobbyiym","MNrhTM8OecSAqL0tYVQS","bssajwb6gjxmu5ttarjq");
 	$sql="INSERT INTO jugadores VALUES ('$usuario','$puntos')";
 	$resultado=$conexion->query($sql);
 		    

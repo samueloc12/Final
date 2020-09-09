@@ -47,7 +47,7 @@
 		$puntos=0;
 		$_SESSION['puntos']=$puntos;
 		
-		$conexion=new mysqli("localhost","root","","tecnologia");
+		$conexion=new mysqli("bssajwb6gjxmu5ttarjq-mysql.services.clever-cloud.com","udgupmjtgobbyiym","MNrhTM8OecSAqL0tYVQS","bssajwb6gjxmu5ttarjq");
 		$sql="SELECT * FROM jugadores ORDER BY Puntos DESC LIMIT 0,3";
 		$resultado=$conexion->query($sql);
 		

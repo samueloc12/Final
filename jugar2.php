@@ -29,7 +29,7 @@ echo '<br>';echo '<br>';
 ECHO "De acuerdo con la siguiente pregunta, Responda:";
 echo '<br>';echo '<br>';
 
-    $conexion=new mysqli("localhost","root","","tecnologia");
+    $conexion=new mysqli("bssajwb6gjxmu5ttarjq-mysql.services.clever-cloud.com","udgupmjtgobbyiym","MNrhTM8OecSAqL0tYVQS","bssajwb6gjxmu5ttarjq");
     $sql="SELECT * FROM periodo3final WHERE ID = '$numero'";
     $resultado=$conexion->query($sql);
     

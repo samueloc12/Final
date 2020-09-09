@@ -48,7 +48,7 @@
 	}
 	}
 	$puntos1=$_SESSION['puntos'];
-	$conexion=new mysqli("localhost","root","","tecnologia");
+		$conexion=new mysqli("bssajwb6gjxmu5ttarjq-mysql.services.clever-cloud.com","udgupmjtgobbyiym","MNrhTM8OecSAqL0tYVQS","bssajwb6gjxmu5ttarjq");
 	$sql="SELECT * FROM periodo3final WHERE ID = '$NN'";
 	$resultado=$conexion->query($sql);
 	$conexion1=$resultado->fetch_assoc();
